@@ -7,7 +7,7 @@ This project is a simple HTML list of To-do tasks. This simple web page is built
 
 - JavaScript
 - HTML
-- CSS and Bootstrap
+- CSS
 - Webpack
 - VS Code
 
