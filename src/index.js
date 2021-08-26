@@ -1,6 +1,6 @@
 import './style.css';
 import {
-  mousedown, eventlisteners,
+  mousedown, dragndrop,
 } from './dragndrop';
 import { status, prepopstatus } from './status';
 import {
@@ -43,7 +43,7 @@ const todoList = (arr) => {
     // Create add event listeners //
     mousedown(dragBtn);
   });
-  eventlisteners(arr);
+  dragndrop(arr);
   status(arr);
   prepopstatus(arr);
   edit(arr);
