@@ -9,7 +9,7 @@ export function eventlisteners(arr) {
       const dropIndex = element.index;
       const dragged = arr[draggedIndex];
       const drop = arr[dropIndex];
-       // swap
+      // swap
       arr[draggedIndex] = drop;
       arr[dropIndex] = dragged;
       // Update indexes
@@ -24,7 +24,7 @@ export function eventlisteners(arr) {
     });
   });
 }
-  
+
 export function mousedown(element) {
   const parent = element.parentElement;
   element.addEventListener('mousedown', () => {

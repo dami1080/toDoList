@@ -1,9 +1,7 @@
 import './style.css';
-
 import {
   mousedown, eventlisteners,
 } from './dragndrop';
-
 import { status, prepopstatus } from './status';
 
 let list = [];

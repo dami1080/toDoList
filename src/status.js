@@ -12,14 +12,14 @@ export function status(arr) {
     });
   });
 }
-  
+
 export function prepopstatus(arr) {
   arr.forEach((element) => {
     const checkbox = document.getElementById(`${element.index}-checkbox`);
     if (element.completed === true) {
       checkbox.checked = true;
     } else {
-        checkbox.checked = false;
+      checkbox.checked = false;
     }
   });
 }
