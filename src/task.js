@@ -4,7 +4,7 @@ export class Duty {
     this.completed = false;
     this.index = 0;
   }
-  
+
   push(arr) {
     this.index = arr.length;
     arr.push(this);
@@ -25,7 +25,7 @@ export function removecompleted(arr) {
       window.localStorage.setItem('tasklist', JSON.stringify(filteredArray));
       window.location.reload();
     }
- });
+  });
 }
 
 export function removeAll(arr) {
@@ -54,7 +54,7 @@ export function edit(arr) {
       window.localStorage.setItem('tasklist', JSON.stringify(arr));
       window.location.reload();
     });
- });
+  });
 }
 
 export function removetask(arr) {
@@ -72,4 +72,3 @@ export function removetask(arr) {
     });
   });
 }
-  
