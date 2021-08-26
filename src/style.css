@@ -25,6 +25,7 @@ body {
 
 .sync {
   transform: rotate(90deg);
+  cursor: pointer;
 }
 
 form {
@@ -76,6 +77,7 @@ button {
   height: 10vh;
   border: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .draggable.dragging {
@@ -85,4 +87,13 @@ button {
 
 .drag-btn {
   cursor: move;
+}
+
+.trash-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.editing {
+  background-color: rgb(136, 241, 198);
 }
