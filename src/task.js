@@ -56,3 +56,20 @@ export function edit(arr) {
     });
  });
 }
+
+export function removetask(arr) {
+  arr.forEach((element) => {
+    const trashBtn = document.getElementById(`${element.index}-trash`);
+    const todelete = [];
+    trashBtn.addEventListener('click', () => {
+      todelete.push(element);
+      const filteredArray = arr.filter((item) => !todelete.includes(item));
+      filteredArray.forEach((element) => {
+        element.index = filteredArray.indexOf(element);
+      });
+      window.localStorage.setItem('tasklist', JSON.stringify(filteredArray));
+      window.location.reload();
+    });
+  });
+}
+  
