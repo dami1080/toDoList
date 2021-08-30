@@ -11,6 +11,9 @@ This project is a simple HTML list of To-do tasks. This simple web page is built
 - Webpack
 - VS Code
 
+Live Demo
+[Live demo link]( https://dami1080.github.io/toDoList/)
+
 ##  Setup    <a name = "setup"></a>
 
   - <code>$ git clone https://github.com/dami1080/toDoList.git</code>
