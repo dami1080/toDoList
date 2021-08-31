@@ -11,7 +11,7 @@ This project is a simple HTML list of To-do tasks. This simple web page is built
 - Webpack
 - VS Code
 
-[Live demo link]( https://dami1080.github.io/toDoList/)
+[Live demo link](https://heuristic-albattani-e6cd0e.netlify.app)
 
 ##  Setup    <a name = "setup"></a>
 
